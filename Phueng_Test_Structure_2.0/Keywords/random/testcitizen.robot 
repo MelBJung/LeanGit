@@ -1,0 +1,7 @@
+*** Settings ***
+Library             citizen.py
+
+*** Test Cases ***
+TestCase1
+    ${citizen_id}=      Generate Thai Citizen ID    
+    Log To Console      Generated Thai Citizen ID: ${citizen_id}

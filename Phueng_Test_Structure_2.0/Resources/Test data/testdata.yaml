@@ -1,0 +1,23 @@
+tc01:
+  email:  phueng1@mail.com
+  username: phueng35@mail.com
+  email_temp: phueng.EPOCH@mail.com
+  passward: Doppio123*
+  confirm_passward: Doppio123*
+  product_name: phone
+  name: phueng
+  surname:  jung
+  address:  110
+  phone_number: 0905646444
+  card_number:  4111111111111111
+  expiration_date:  05/2025
+  cv_code:  131
+  card_owner: phueng
+
+
+# ${email_template}= phueng.EPOCH@mail.com
+# ${current_time} = 1727067879
+# ${email_with_epoch}= phueng.1727067879@mail.com
+
+
+# ${email_with_epoch}    concatenate    ${prefix}  ${current_time}   ${domain}
